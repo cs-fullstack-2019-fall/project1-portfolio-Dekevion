@@ -7,9 +7,9 @@ body{
     margin: 0;
     height: 100%;
 }
-*{
-    border: 1px solid black;
-}
+/**{*/
+/*    border: 1px solid black;*/
+/*}*/
 
 
 #container{
@@ -18,18 +18,20 @@ body{
 
     text-align: center;
     height: 100%;
-    background-color: #2357;
-    color: aliceblue;
+    background-color: #303030;
+    color: 	aliceblue;
     font-family: sans-serif;
 }
 #Title{
-    height: 30%;
-    background-color: #535353;
+    height: 17px;
+    background-color: #202020;
 
 }
 #hed1{
-    background-color: #535353;
-    height: 30%;
+    background-color: #202020;
+    height: 17px;
+    text-align: left;
+    grid-column: 1/3;
 }
 #pic{
     grid-row: 2;
@@ -39,16 +41,16 @@ body{
 #content{
     display: grid;
     grid-row: 2/4;
-    border-style: groove;
+    border-bottom: inset;
     /*width: 100%;*/
     margin: 40px;
 
 }
-/*img{*/
-/*    border-radius: 50%;*/
-/*    width: 50%;*/
-/*    margin: 30px;*/
-/*}*/
+img{
+    border-radius: 50%;
+    width: 50%;
+    margin-top: 50px;
+}
 #foot{
     grid-column: 1/3;
     /*max-height: 28%;*/
@@ -65,33 +67,37 @@ p{
     margin: auto;
     height: auto;
     width: auto;
+    text-align: left;
+
 }
 
 #Frameworks{
     grid-column: 1;
     /*display: inline-block*/
-    border: 3px solid black;
+    border: 1px solid;
 }
 
 
 #Projects{
     grid-column: 1;
     /*display: inline-block*/
-    border: 1px solid black;
+    border: 1px solid;
 }
 
 #Education {
     grid-column: 1;
-    border: 1px solid black;
+    border: 1px solid;
 }
 
 #Resume{
     grid-column: 1;
-    border: 1px solid black;
+    border: 1px solid;
 }
 
 #Reflections{
     grid-column: 1;
+    border: 1px solid;
+;
 }
 
 #Contact{
@@ -104,6 +110,7 @@ a{
 
 #section{
     grid-column:2;
+    border: 1px;
 }
 
 #project{
@@ -112,13 +119,53 @@ a{
     grid-column: 2;
 }
 
-/*.htmlPic{*/
-/*    display:inline-block;*/
-/*}*/
+#showH{
+    width: 20%;
+    margin: 1%;
+    grid-column: 2;
+}
 
+
+#ht{
+    /*display:inline-block;*/
+    width: 50px;
+}
+#python{
+    width: 40px;
+}
+
+#cs{
+    width: 50px;
+}
+
+#js{
+    width: 50px;
+}
 #profile{
     border-radius: 50%;
     width: 50%;
     margin: 30px
 }
 
+#section{
+    text-align: left;
+}
+
+h2{
+    text-align: left;
+}
+
+#abtme{
+    text-align: left;
+}
+
+#touch{
+    grid-column: 1;
+}
+
+
+#resume1{
+    grid-column: 2;
+    margin-top: inherit;
+    text-align: inherit;
+}
