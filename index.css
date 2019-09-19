@@ -43,7 +43,8 @@ body{
     grid-row: 2/4;
     border-bottom: inset;
     /*width: 100%;*/
-    margin: 40px;
+    /*margin: 40px;*/
+    margin: inherit;
 
 }
 img{
@@ -62,6 +63,7 @@ img{
     height: auto;
     width: auto;
     margin: 30px;
+    grid-row: 3;
 }
 p{
     margin: auto;
@@ -75,6 +77,9 @@ p{
     grid-column: 1;
     /*display: inline-block*/
     border: 1px solid;
+    margin: inherit;
+    text-align: center;
+    padding: 42px;
 }
 
 
@@ -82,22 +87,27 @@ p{
     grid-column: 1;
     /*display: inline-block*/
     border: 1px solid;
+    margin: inherit;
+    padding: 35px;
 }
 
 #Education {
     grid-column: 1;
     border: 1px solid;
+    margin: inherit;
+    padding: 7%;
 }
 
 #Resume{
     grid-column: 1;
     border: 1px solid;
+    padding: 23px;
 }
 
 #Reflections{
     grid-column: 1;
     border: 1px solid;
-;
+    padding: 46px;
 }
 
 #Contact{
@@ -111,6 +121,7 @@ a{
 #section{
     grid-column:2;
     border: 1px;
+    text-align: left;
 }
 
 #project{
@@ -161,6 +172,7 @@ h2{
 
 #touch{
     grid-column: 1;
+    padding: 5px;
 }
 
 
@@ -168,4 +180,20 @@ h2{
     grid-column: 2;
     margin-top: inherit;
     text-align: inherit;
+    color: currentColor;
+    padding: 3%;
 }
+
+#touch{
+    grid-column: 2;
+    color: currentColor;
+}
+
+#git{
+    color: currentColor;
+}
+
+#view{
+    color: currentColor;
+}
+
