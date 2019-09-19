@@ -161,6 +161,7 @@ a{
 
 #section{
     text-align: left;
+    margin-left: 10px;
 }
 
 h1{
@@ -201,3 +202,6 @@ h1{
     color: currentColor;
 }
 
+#bcome{
+    padding: 13px;
+}
