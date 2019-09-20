@@ -71,9 +71,7 @@ img{
     grid-row: 3;
 }
 p{
-    margin: auto;
-    height: auto;
-    width: auto;
+   
     text-align: left;
 
 }
@@ -227,7 +225,8 @@ h1{
 #bcome{
     padding: 27.5px;
     border-bottom: 2px solid silver;
-    height: 56px;
+    height: 42px;
+    margin-left: -1px;
 }
 
 #edu{
