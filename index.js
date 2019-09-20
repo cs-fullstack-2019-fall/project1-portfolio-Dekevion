@@ -4,10 +4,20 @@ let Education = document.getElementById('Education');
 let Reflection = document.getElementById('Reflections');
 let Contact = document.getElementById('Contact');
 let Resume = document.getElementById('Resume');
+const el = document.querySelector('section');
 
-
-
-
+// el.classList.add('animated','bounceOutLeft');
+$(function () {
+    $('section').click(function () {
+        animate('section', 'fadeInLeft')
+    });
+    function animate(e,animation) {
+        $(e).addClass('animated ' + animation);
+        var wait = setTimeout(function () {
+            $(e).removeClass('animated' + animation)
+        },1000);
+    }
+});
 
 //
 // frame.addEventListener('mouseenter',function () {

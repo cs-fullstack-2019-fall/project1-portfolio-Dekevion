@@ -18,7 +18,7 @@ body{
 
     text-align: center;
     height: 100%;
-    background-color: #303030;
+    background-color: 	#282828;
     color: 	aliceblue;
     font-family: sans-serif;
 }
@@ -27,7 +27,7 @@ body{
     background-color: #202020;
 
 }
-#hed1{
+.hed1{
     background-color: #202020;
     height: 32%;
     text-align: left;
@@ -37,15 +37,19 @@ body{
 #pic{
     grid-row: 2;
     grid-column: 1;
+    border-bottom: 2px solid silver;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 #content{
     display: grid;
     grid-row: 2/4;
-    border-bottom: inset;
+    /*border-bottom: inset;*/
     /*width: 100%;*/
     /*margin: 40px;*/
     margin: inherit;
+    grid-template-columns: 1fr 2fr;
 
 }
 img{
@@ -81,7 +85,11 @@ p{
     margin: inherit;
     text-align: center;
     padding: 42px;
+    background-color: #383838;
+    font-size: larger;
+    height: inherit;
 }
+
 
 
 #Projects{
@@ -90,6 +98,9 @@ p{
     border: 1px solid;
     margin: inherit;
     padding: 35px;
+    background-color: #404040;
+    font-size: larger;
+    height: inherit;
 }
 
 #Education {
@@ -97,18 +108,28 @@ p{
     border: 1px solid;
     margin: inherit;
     padding: 7%;
+    background-color: #484848;
+    font-size: larger;
+    margin-bottom: -1px;
+
 }
 
 #Resume{
     grid-column: 1;
     border: 1px solid;
     padding: 23px;
+    background-color: #505050;
+    font-size: larger;
+    /*height: inherit;*/
 }
 
 #Reflections{
     grid-column: 1;
     border: 1px solid;
     padding: 46px;
+    background-color: #585858;
+    font-size: initial;
+    height: 21px;
 }
 
 #Contact{
@@ -121,8 +142,12 @@ a{
 
 #section{
     grid-column:2;
-    border: 1px;
     text-align: left;
+    margin-left: 0px;
+    /*visibility: hidden;*/
+    border-bottom: 2px solid silver;
+    border-top: 2px solid silver;
+
 }
 
 #project{
@@ -159,34 +184,31 @@ a{
     margin: 30px
 }
 
-#section{
-    text-align: left;
-    margin-left: 10px;
+#section2{
+    border-bottom: 2px solid silver;
+    margin-bottom: -1px;
 }
 
 h1{
     text-align: left;
     font-family: 'Lilita One', cursive;
     font-size: 28px;
+    height: inherit;
 }
 
 #abtme{
     text-align: left;
     font-family: sans-serif;
-}
-
-#touch{
-    grid-column: 1;
-    padding: 5px;
+    font-size: 16px;
 }
 
 
 #resume1{
     grid-column: 2;
-    margin-top: inherit;
-    text-align: inherit;
     color: currentColor;
-    padding: 3%;
+    padding: 4%;
+    border-bottom: 2px solid silver;
+
 }
 
 #touch{
@@ -203,5 +225,14 @@ h1{
 }
 
 #bcome{
-    padding: 13px;
+    padding: 27.5px;
+    border-bottom: 2px solid silver;
+    height: 56px;
+}
+
+#edu{
+    padding: 32px;
+    border-bottom: 2px solid silver;
+    height: initial;
+    margin-bottom: -2px;
 }
