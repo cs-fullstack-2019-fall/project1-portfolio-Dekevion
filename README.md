@@ -56,3 +56,6 @@ Make sure you include the following pages:
 - http://sorenromer.com/
 - https://www.clemsonwebdesign.com/
 - https://daneden.github.io/animate.css/
+
+### Kenn's Notes:
+The page would be confusing for a user to easily contact you or clicking on individiual projects. The skills are not centered and the text is small.
