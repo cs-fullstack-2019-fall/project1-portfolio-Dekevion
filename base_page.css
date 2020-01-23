@@ -1,0 +1,171 @@
+html,body{
+    margin: auto;
+    height: 100%;
+    background-color: #fcf6f5;
+    position: relative;
+    font-family: 'Alata', sans-serif;
+}
+
+/**{*/
+/*    border: 1px solid;*/
+/*}*/
+
+/*body{*/
+/*    height: 100%;*/
+/*    margin: auto;*/
+/*}*/
+
+#container{
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr;
+    margin: auto;
+}
+.container_class{
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr;
+    margin: auto;
+}
+
+#a{
+grid-row: 1;
+}
+
+.a_class{
+    grid-row: 1;
+}
+
+#b{
+    grid-row: 2;
+    /* display: grid; */
+    margin: 3px;
+    /*border: 1px solid;*/
+    display: inline-block;
+}
+.b_class{
+    margin: 10px;
+    grid-row: 2;
+    font-size: unset;
+    display: contents
+
+}
+#name{
+    text-align: left;
+    position: absolute;
+    width: 100%;
+    top: 38%;
+    font-family: 'Alata', sans-serif;
+    font-size: -webkit-xxx-large;
+    color: darkolivegreen;
+}
+
+.b-div{
+    font-size: xx-large;
+}
+
+#move_list{
+    position: absolute;
+}
+
+.home{
+    font-weight: lighter;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    font-size: larger;
+    text-decoration: none
+
+}
+
+#home{
+    font-weight: lighter;
+}
+#skills{
+    font-weight: lighter;
+}
+
+#projects{
+    font-weight: lighter;
+    color: #110a0a;
+}
+
+#resume{
+    font-weight: lighter;
+    color: #110a0a;
+}
+
+#about{
+    font-weight: lighter;
+    color: #110a0a;
+}
+
+#content_box{
+    text-align: right;
+    position: absolute;
+    bottom: 7%;
+    left: 50%;
+    right: 5%;
+    height: 40%;
+    font-weight: lighter;
+    font-size: x-large;
+    /*visibility: hidden;*/
+
+}
+
+
+#resume-text{
+    text-decoration: underline;
+    color: #080000
+}
+
+h5{
+    font-weight: 100;
+    text-decoration: none;
+}
+
+a{
+    color: black;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 60px;
+    width: 100%;
+    /* background-color: red; */
+    /* color: white; */
+    text-align: center;
+    border-bottom: 1px solid;
+    border-bottom-width: 2px;
+}
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* background-color: red; */
+    /* color: white; */
+    text-align: center;
+    border-bottom: 1px solid;
+    border-bottom-width: 2px;
+}
+#linked {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin: 10px;
+
+}
+
+#email{
+    position: fixed;
+    right: 0.5%;
+    bottom: 1%;
+    width: 100%;
+    text-align: end;
+    margin: 10px;
+}
+/*#c{*/
+/*grid-row: 3;*/
+/*}*/
