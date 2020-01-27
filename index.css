@@ -166,6 +166,9 @@ header{
     text-align: end;
     margin: 10px;
 }
+p{
+    font-size: x-large;
+}
 /*#c{*/
 /*grid-row: 3;*/
 /*}*/
