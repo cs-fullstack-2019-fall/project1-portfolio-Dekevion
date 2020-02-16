@@ -5,45 +5,179 @@
     <title>Website</title>
     <link rel="stylesheet" type="text/css" href="index.css">
     <link href="https://fonts.googleapis.com/css?family=Alata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="animate.css">
 </head>
 <body>
 <section id="container">
-    <div id="a" >
+    <div id="a">
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about-me">About</a>
+                </li>
+                <li>
+                    <a href="#my">Projects</a>
+                </li>
+                <li>
+                    <a href="#my_skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
 
+
+            </ul>
+        </nav>
         <h1 id="name">Dekevion Wade</h1>
+        <div id="btn-posit">
+            <a href="./pdf.html" target="_blank" id="resume-text">
+                <!--            <h5>Resume</h5>-->
+                <button id="here" class="myButton animated bounce ">Here's my resume</button>
+            </a>
+
+        </div>
 
     </div>
 
-    <div id="b" >
-        <div id="content_box">I am a full stack web developer based in Memphis, TN. I have a passion for learning, great conversations, and video games. I enjoy creating solutions and solving problems that make other people's lives better, with or without programming.
+    <div id="b">
+        <h2 id="about-me" class="example example animated slideInRight">About Me</h2>
+        <div id="content_box" class="example example animated slideInRight">
+            <!--                    I am a full stack web developer based in Memphis, TN. I have a passion for learning, great conversations, and video games. I enjoy creating solutions and solving problems that make other people's lives better, with or without programming.-->
+            I am a full stack web developer based in Memphis, TN. with a passion for learning new things, and great
+            conversations
+            I enjoy creating solutions and solving problems that make other people's lives better. I'm always seeking
+            opportunities to expand my coding skills and better myself as a developer. Scroll down to see some of what
+            I've worked on so far!
         </div>
+
+        <!--        <h1 class="example animated slideInRight" id="example">Example</h1>-->
+
         <section id="move_list">
-            <div class="b-div"><h5 id="home">Home</h5></div>
-            <!--            <div  class="b-div" onclick="fadeIn()"><h5 id="about">About Me</h5></div>-->
-<!--            <div class="b-div"><h5 id="skills">Skills</h5></div>-->
-            <div class="b-div">
-
-            <a href="./projects.html" >   <h5 id="projects">Projects</h5> </a>
+            <!--            <div class="b-div"><h5 id="home">Home</h5></div>-->
 
 
-            </div>
-            <div id="" class="b-div">
-                <a href="./pdf.html" target="_blank" id="resume-text">
-                    <h5>Resume</h5>
-                </a>
-            </div>
-                <footer>Contact me</footer>
-            <div id="linked"> <a href="https://www.linkedin.com/in/dekevionwade"> Linkedin: Dekevion Wade</a>
+            <!--            <div class="b-div"><h5 id="skills">Skills</h5></div>-->
+            <!--            <div class="b-div">-->
 
-            </div>
-            <div id="email">Email: Dekevionwade@yahoo.com</div>
+            <!--                <a href="./projects.html"><h5 id="projects">Projects</h5></a>-->
+
+
+            <!--            </div>-->
+
+
+            <!--            <div id="" class="b-div">-->
+
+            <!--                            <a href="./pdf.html" target="_blank" id="resume-text">-->
+            <!--                                <h5>Resume</h5>-->
+            <!--                            </a>-->
+            <!--            </div>-->
+
+
         </section>
 
     </div>
-<!--        <div id="c">-->
-<!--            <footer id="contact"> Here's my Contact information</footer>-->
+    <div id="c">
+        <h1 id="my">My Projects</h1>
 
-<!--        </div>-->
+        <div id="djang_proj">
+            <a href="http://app1.dekevion.com/" target="_blank"><h1>Django Wikipedia Project</h1></a>
+            <p>• Created an application that combined both the React and Django Frameworks.
+                Project displays knowledge of how components and fetch requests work</p>
+        </div>
+
+        <div id="rumy_proj_title">
+            <a href="https://github.com/Dekevion/rn_native_rumy"><h1>Rumy Project</h1></a>
+
+            <p>• A mobile application that Uses the React-Native Framework (Client-Side) and the Django framework.
+                The application extracts user’s
+                geographical data and displays it as markers on a map</p>
+
+            <!--            <img src="android.png" width="400" id="android">-->
+
+
+        </div>
+
+
+        <div id="vid_proj">
+            <a href="http://app1.dekevion.com/" target="_blank"><h1>React/Django Video-Game Project</h1></a>
+            <p>• This an application that combines both the React and Django Frameworks.
+                This project displays knowledge of how components and fetch requests work</p>
+        </div>
+
+        <div id="brain_proj">
+            <a href="https://github.com/Dekevion/smartbrain"><h1>Smart Brain Project</h1></a>
+            <p>• A Project that utilized The React Framework to consume a facial recognition API.</p>
+        </div>
+
+
+    </div>
+    <div id="d">
+
+        <h1 id="my_skills">My Skills</h1>
+        <div id="what_ik">
+            <ul>
+                <li>
+                    <h1 class="comp_skills">HTML</h1>
+                </li>
+
+                <li>
+                    <h1 class="comp_skills">CSS</h1>
+                </li>
+                <li>
+                    <h1 class="comp_skills">JavaScript</h1>
+                </li>
+
+
+                <li>
+                    <h1 class="comp_skills">Django</h1>
+                </li>
+
+                <li>
+                    <h1 class="comp_skills">Python</h1>
+                </li>
+
+                <li>
+                    <h1 class="comp_skills">React</h1>
+                </li>
+                <li>
+                    <h1 class="comp_skills">React Native</h1>
+                </li>
+                <li>
+                    <h1 class="comp_skills">C#</h1>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="e">
+        <h1 id="contact">Contact me at:</h1>
+        <div id="linked"><a href="https://www.linkedin.com/in/dekevionwade">
+            <img src="linkedin.png" width="80">
+        </a>
+        </div>
+        <div><a href="https://github.com/Dekevion">
+            <img src="github-image.png" width="80">
+        </a>
+        </div>
+        <!--    </div>-->
+
+    </div>
+    <!--    <footer>Contact me</footer>-->
+    <!--    <div id="linked"><a href="https://www.linkedin.com/in/dekevionwade"> Linkedin: Dekevion Wade</a>-->
+
+    <!--    </div>-->
+    <!--    <div id="email">Email: Dekevionwade@yahoo.com</div>-->
+
+    <!--    <div id="d">-->
+    <!--        <div id="res-button">-->
+    <!--            <a href="./pdf.html" target="_blank" id="resume-text">-->
+    <!--                &lt;!&ndash;            <h5>Resume</h5>&ndash;&gt;-->
+    <!--                <button id="here">Here's my resume</button>-->
+    <!--            </a>-->
+
+    <!--        </div>-->
+
+
+    </div>
 
 </section>
 <script src="index.js"></script>
