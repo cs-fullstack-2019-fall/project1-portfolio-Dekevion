@@ -3,53 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <title>Website</title>
+    <link rel="stylesheet" href="animate.min.css">
     <link rel="stylesheet" type="text/css" href="index.css">
     <link href="https://fonts.googleapis.com/css?family=Alata&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400i,500i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500i&display=swap" rel="stylesheet">
 </head>
 <body>
 <section id="container">
     <div id="a">
-        <nav>
-            <ul>
-                <li>
-                    <a href="#about-me">About</a>
-                </li>
-                <li>
-                    <a href="#my">Projects</a>
-                </li>
-                <li>
-                    <a href="#my_skills">Skills</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
+        <!--        <nav>-->
+        <!--            <ul>-->
+        <!--                <li>-->
+        <!--                    <a href="#about-me">About</a>-->
+        <!--                </li>-->
+        <!--                <li>-->
+        <!--                    <a href="#my">Projects</a>-->
+        <!--                </li>-->
+        <!--                <li>-->
+        <!--                    <a href="#my_skills">Skills</a>-->
+        <!--                </li>-->
+        <!--                <li>-->
+        <!--                    <a href="#contact">Contact</a>-->
+        <!--                </li>-->
 
 
-            </ul>
-        </nav>
-        <h1 id="name">Dekevion Wade</h1>
+        <!--            </ul>-->
+        <!--        </nav>-->
+        <ul id="nav_ul">
+            <li id="nav_li">
+                <div class="b-div"><h5 id="home"><a href="#about-me">About</a></h5></div>
+            </li>
+            <li>
+                <div class="b-div"><h5 id="skills"><a href="#my_pr"> Projects</a></h5></div>
+            </li>
+            <li>
+                <div class="b-div"><h5 id="res"><a href="#here"> Resume</a></h5></div>
+            </li>
+        </ul>
+        <h1 id="name">Hi! I'm Dekevion. </h1>
+
+
         <div id="btn-posit">
-            <a href="./pdf.html" target="_blank" id="resume-text">
-                <!--            <h5>Resume</h5>-->
-                <button id="here" class="myButton animated bounce ">Here's my resume</button>
-            </a>
+
 
         </div>
 
     </div>
 
     <div id="b">
-        <h2 id="about-me" class="example example animated slideInRight">About Me</h2>
-        <div id="content_box" class="example example animated slideInRight">
-            <!--                    I am a full stack web developer based in Memphis, TN. I have a passion for learning, great conversations, and video games. I enjoy creating solutions and solving problems that make other people's lives better, with or without programming.-->
+
+        <h1 id="about-me" class="wow shake" data-wow-duration="2s" data-wow-delay="2.5s">Hello</h1>
+
+
+        <div id="content_box" class="wow slideInRight" data-wow-duration="2.8s">
             I am a full stack web developer based in Memphis, TN. with a passion for learning new things, and great
-            conversations
+            conversations.
             I enjoy creating solutions and solving problems that make other people's lives better. I'm always seeking
             opportunities to expand my coding skills and better myself as a developer. Scroll down to see some of what
             I've worked on so far!
-        </div>
 
+        </div>
         <!--        <h1 class="example animated slideInRight" id="example">Example</h1>-->
 
         <section id="move_list">
@@ -77,79 +92,134 @@
 
     </div>
     <div id="c">
-        <h1 id="my">My Projects</h1>
+        <h1 id="my_pr" class="wow shake" data-wow-duration="2s" data-wow-delay="2.5s">My Projects</h1>
 
-        <div id="djang_proj">
-            <a href="http://app1.dekevion.com/" target="_blank"><h1>Django Wikipedia Project</h1></a>
-            <p>• Created an application that combined both the React and Django Frameworks.
-                Project displays knowledge of how components and fetch requests work</p>
+        <div class="card" data-hover="• Created an application that combined both the React and Django Frameworks.
+                        Project displays knowledge of how components and fetch requests work">
+
+            <div class="card_container">
+                <a href="http://app1.dekevion.com/" target="_blank"><h1>Django Wikipedia Project</h1></a>
+                <p></p>
+            </div>
         </div>
 
-        <div id="rumy_proj_title">
-            <a href="https://github.com/Dekevion/rn_native_rumy"><h1>Rumy Project</h1></a>
+        <div class="card" data-hover="• A mobile application that Uses the React-Native Framework (Client-Side) and the Django framework.
+                        The application extracts user’s
+                        geographical data and displays it as markers on a map">
 
-            <p>• A mobile application that Uses the React-Native Framework (Client-Side) and the Django framework.
-                The application extracts user’s
-                geographical data and displays it as markers on a map</p>
+            <div class="card_container">
+                <a href="https://github.com/Dekevion/rn_native_rumy"><h1>Rumy Project</h1></a>
 
-            <!--            <img src="android.png" width="400" id="android">-->
-
-
+                <!--                <img src="./android.png" alt="Avatar" style="width:100%" class="details">-->
+                <p></p>
+            </div>
         </div>
 
+        <div class="card" data-hover="• This an application that combines both the React and Django Frameworks.
+                        This project displays knowledge of how components and fetch requests work">
 
-        <div id="vid_proj">
-            <a href="http://app1.dekevion.com/" target="_blank"><h1>React/Django Video-Game Project</h1></a>
-            <p>• This an application that combines both the React and Django Frameworks.
-                This project displays knowledge of how components and fetch requests work</p>
+            <div class="card_container" data-hover="">
+                <a href="https://github.com/cs-fullstack-2019-fall/reactdjango-project2-Dekevion" target="_blank"><h1>
+                    React/Django Video-Game Project</h1></a>
+                <p></p>
+            </div>
         </div>
 
-        <div id="brain_proj">
-            <a href="https://github.com/Dekevion/smartbrain"><h1>Smart Brain Project</h1></a>
-            <p>• A Project that utilized The React Framework to consume a facial recognition API.</p>
+        <div class="card"
+             data-hover="• A Project that utilized The React Framework to consume a facial recognition API.">
+
+            <div class="card_container">
+                <a href="https://github.com/Dekevion/smartbrain"><h1>Smart Brain Project</h1></a>
+                <p></p>
+            </div>
         </div>
+
+        <!--        <div class="card" data-hover="• Created an application that combined both the React and Django Frameworks.-->
+        <!--                        Project displays knowledge of how components and fetch requests work">-->
+
+        <!--            <div class="card_container">-->
+        <!--                <a href="http://app1.dekevion.com/" target="_blank"><h1>Django Wikipedia Project</h1></a>-->
+        <!--                <p></p>-->
+        <!--            </div>-->
+        <!--        </div>-->
+
+        <!--        <div id="djang_proj">-->
+        <!--                    <a href="http://app1.dekevion.com/" target="_blank"><h1>Django Wikipedia Project</h1></a>-->
+        <!--                    <p>• Created an application that combined both the React and Django Frameworks.-->
+        <!--                        Project displays knowledge of how components and fetch requests work</p>-->
+        <!--        </div>-->
+
+        <!--        <div id="rumy_proj_title">-->
+        <!--                    <a href="https://github.com/Dekevion/rn_native_rumy"><h1>Rumy Project</h1></a>-->
+
+        <!--                    <p>• A mobile application that Uses the React-Native Framework (Client-Side) and the Django framework.-->
+        <!--                        The application extracts user’s-->
+        <!--                        geographical data and displays it as markers on a map</p>-->
+
+        <!--            &lt;!&ndash;            <img src="android.png" width="400" id="android">&ndash;&gt;-->
+
+
+        <!--        </div>-->
+
+
+        <!--        <div id="vid_proj">-->
+        <!--                    <a href="https://github.com/cs-fullstack-2019-fall/reactdjango-project2-Dekevion" target="_blank"><h1>React/Django Video-Game Project</h1></a>-->
+        <!--                    <p>• This an application that combines both the React and Django Frameworks.-->
+        <!--                        This project displays knowledge of how components and fetch requests work</p>-->
+        <!--        </div>-->
+
+        <!--        <div id="brain_proj">-->
+        <!--                    <a href="https://github.com/Dekevion/smartbrain"><h1>Smart Brain Project</h1></a>-->
+        <!--                    <p>• A Project that utilized The React Framework to consume a facial recognition API.</p>-->
+        <!--                </div>-->
 
 
     </div>
     <div id="d">
 
-        <h1 id="my_skills">My Skills</h1>
-        <div id="what_ik">
-            <ul>
-                <li>
-                    <h1 class="comp_skills">HTML</h1>
-                </li>
 
-                <li>
-                    <h1 class="comp_skills">CSS</h1>
-                </li>
-                <li>
-                    <h1 class="comp_skills">JavaScript</h1>
-                </li>
+        <!--        <h4 id="my_skills">My Skills</h4>-->
+
+        <a href="./pdf.html" target="_blank" id="resume-text">
+            <!--            <h5>Resume</h5>-->
+            <button id="here" class="myButton">Here's my resume</button>
+        </a>
+        <!--        <div id="what_ik">-->
+        <!--            <ul>-->
+        <!--                <li>-->
+        <!--                    <h1 class="comp_skills">HTML</h1>-->
+        <!--                </li>-->
+
+        <!--                <li>-->
+        <!--                    <h1 class="comp_skills">CSS</h1>-->
+        <!--                </li>-->
+        <!--                <li>-->
+        <!--                    <h1 class="comp_skills">JavaScript</h1>-->
+        <!--                </li>-->
 
 
-                <li>
-                    <h1 class="comp_skills">Django</h1>
-                </li>
+        <!--                <li>-->
+        <!--                    <h1 class="comp_skills">Django</h1>-->
+        <!--                </li>-->
 
-                <li>
-                    <h1 class="comp_skills">Python</h1>
-                </li>
+        <!--                <li>-->
+        <!--                    <h1 class="comp_skills">Python</h1>-->
+        <!--                </li>-->
 
-                <li>
-                    <h1 class="comp_skills">React</h1>
-                </li>
-                <li>
-                    <h1 class="comp_skills">React Native</h1>
-                </li>
-                <li>
-                    <h1 class="comp_skills">C#</h1>
-                </li>
-            </ul>
-        </div>
+        <!--                <li>-->
+        <!--                    <h1 class="comp_skills">React</h1>-->
+        <!--                </li>-->
+        <!--                <li>-->
+        <!--                    <h1 class="comp_skills">React Native</h1>-->
+        <!--                </li>-->
+        <!--                <li>-->
+        <!--                    <h1 class="comp_skills">C#</h1>-->
+        <!--                </li>-->
+        <!--            </ul>-->
+    </div>
     </div>
     <div id="e">
-        <h1 id="contact">Contact me at:</h1>
+        <h4 id="contact">Contact me at:</h4>
         <div id="linked"><a href="https://www.linkedin.com/in/dekevionwade">
             <img src="linkedin.png" width="80">
         </a>
@@ -180,6 +250,11 @@
     </div>
 
 </section>
+<script src="wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
 <script src="index.js"></script>
+
 </body>
 </html>
