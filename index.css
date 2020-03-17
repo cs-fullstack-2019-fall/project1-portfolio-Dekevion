@@ -15,7 +15,7 @@ body {
     margin: 5px;
     padding: 0;
     /*background-color: whitesmoke;*/
-    background: linear-gradient(-45deg, #eeffee,  whitesmoke, antiquewhite);
+    background: linear-gradient(-45deg,  whitesmoke, antiquewhite, #A9A9A9);
     background-size: 700% 700%;
     position: relative;
     animation: change 30s ease-in-out infinite;
@@ -314,7 +314,7 @@ body {
     letter-spacing: 4px;
     word-spacing: 7px;
     animation-delay: 1s;
-    font-weight: lighter;
+    font-weight: 500;
     font-size: 2.68em;
     font-family: 'Roboto', sans-serif;
     margin: 25px;
@@ -439,7 +439,7 @@ li h5:hover {
 }
 
 a:hover {
-    color: #9fbed2
+    color: #29668f;
 }
 
 #android {
