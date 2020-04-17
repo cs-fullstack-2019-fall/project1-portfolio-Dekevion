@@ -115,17 +115,16 @@ body {
     text-align: center;
     width: 100%;
     font-family: 'Alata', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
     font-size: 5vw;
-    /* color: darkolivegreen; */
     color: darkcyan;
     margin-left: 5px;
-    text-shadow: 6px 3px 1px rgba(0, 0, 0, 0.1);
+    text-shadow: 6px 3px 1px rgba(0, 0, 0, 0.03);
     letter-spacing: 1px;
-    /*font-size: 72px;*/
-    /*background: -webkit-linear-gradient(#333, darkcyan);*/
     background: -webkit-linear-gradient(#2d1f1f, dimgray);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-weight: 400;
 }
 
 /*#name:before{*/
